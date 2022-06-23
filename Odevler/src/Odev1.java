@@ -7,7 +7,7 @@ public class Odev1 {
 		double vizeNot = scanner.nextDouble();
 		System.out.print("Final notunuzu giriniz : ");
 		double finalNot = scanner.nextDouble();
-		int ortalama = (int) ((vizeNot + finalNot) / 2);
+		int ortalama = (int) ((vizeNot*0.4) + (finalNot*0.6));
 		System.out.println(ortalama);
 		if (ortalama < 50) {
 			System.out.println("Bu Dersten Kaldınız");
